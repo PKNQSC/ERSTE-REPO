@@ -1,0 +1,2 @@
+source O2-SQL-TABLES/02a_db_table_SQL.sql
+source O2-SQL-TABLES/02b_db_table_SQL.sql
