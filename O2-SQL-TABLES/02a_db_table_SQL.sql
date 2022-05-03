@@ -1,5 +1,5 @@
 /* Struktur der Tabelle anzeigen */
-DESCRIBE test;/* ------- Strukturen -----*/
+#DESCRIBE test;/* ------- Strukturen -----*/
 /* Kommentar 1 */
 # Kommentar 2
 -- Kommentar 3
@@ -31,8 +31,12 @@ SHOW TABLES;
 DESCRIBE test;
 
 INSERT INTO test(name,age) VALUES ("Grizabella",29);
-INSERT INTO test(name,age) VALUES ("Alonzo",35);
+INSERT INTO test(age,name) VALUES (35,"Alonzo");
 INSERT INTO test VALUES ();
+
+INSERT INTO test(name,age) VALUES ("Grizabella",29);
+INSERT INTO test(name,age) VALUES ("Alonzo",35);
+
 
 SELECT * FROM test;
 

@@ -31,7 +31,7 @@ SHOW TABLES;
 DESCRIBE test;
 
 INSERT INTO test(name,age) VALUES ("Grizabella",29);
-INSERT INTO test(name,age) VALUES ("Alonzo",35);
+INSERT INTO test(name,age) VALUES ("Alonzo",22);
 INSERT INTO test VALUES ();
 
 SELECT * FROM test;
