@@ -1,5 +1,5 @@
 /* Struktur der Tabelle anzeigen */
-#DESCRIBE test;/* ------- Strukturen -----*/
+* ------- Strukturen -----*/
 /* Kommentar 1 */
 # Kommentar 2
 -- Kommentar 3
@@ -20,8 +20,8 @@ USE boo;
 
 CREATE TABLE IF NOT EXISTS test
 (
-name VARCHAR(20) NOT NULL DEFAULT "TBA",
-age INT NOT NULL DEFAULT 0
+name VARCHAR(20),
+age INT
 );
 
 /* Alle Tabellen in der DB anzeigen */
@@ -31,15 +31,10 @@ SHOW TABLES;
 DESCRIBE test;
 
 INSERT INTO test(name,age) VALUES ("Grizabella",29);
-INSERT INTO test(age,name) VALUES (35,"Alonzo");
+INSERT INTO test(name,age) VALUES ("Alonzo",22);
 INSERT INTO test VALUES ();
 
-INSERT INTO test(name,age) VALUES ("Grizabella",29);
-INSERT INTO test(name,age) VALUES ("Alonzo",35);
-
-
 SELECT * FROM test;
-
 
 
 
