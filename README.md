@@ -1,3 +1,4 @@
-# ERSTE-REPO
-ARBEITS-Repo goorm-IDE
+01_DB_work
+
+Repo für goorm-IDE
 
